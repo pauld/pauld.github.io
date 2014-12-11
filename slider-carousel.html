@@ -335,19 +335,65 @@
 		
 		<main>
 			
-			<!-- ============================================================= SECTION – HERO ============================================================= -->
+			<!-- ============================================================= SECTION – MAIN SLIDER HEADER ============================================================= -->
 			
-			<section id="hero">
-				<div id="owl-main" class="owl-carousel height-lg owl-inner-nav owl-ui-lg">
+			<section id="main-slider-header">
+				<div class="container inner">
+					<div class="row">
+						<div class="col-md-8 col-sm-9 center-block text-center">
+							<header>
+								<h1>Main slider with captions</h1>
+								<p>Easy customization options for caption alignment and animation. <br>All sliders are fully responsive, draggable and touchable!</p>
+							</header>
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</section>
+			
+			<!-- ============================================================= SECTION – MAIN SLIDER HEADER : END ============================================================= -->
+			
+			
+			<!-- ============================================================= SECTION – MAIN SLIDER HERO ============================================================= -->
+			
+			<section id="hero" class="inner-bottom-sm">
+				
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<ul id="transitionType" class="filter">
+								<li><a href="#" data-transition-type="fade" class="active">fade</a></li>
+								<li><a href="#" data-transition-type="backSlide">backSlide</a></li>
+								<li><a href="#" data-transition-type="goDown">goDown</a></li>
+								<li><a href="#" data-transition-type="fadeUp">fadeUp</a></li>
+							</ul><!-- /#transitionType -->
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+				
+				<div id="owl-main" class="owl-carousel height-md owl-inner-nav owl-ui-lg">
 					
-					<div class="item" style="background-image: url(assets/images/art/slider01.jpg);">
+					<div class="item" style="background-image: url(assets/images/art/slider05.jpg);">
 						<div class="container">
-							<div class="caption vertical-center text-center">
+							<div class="caption vertical-top text-center">
 								
-								<h1 class="fadeInDown-1 light-color">Made for Designers</h1>
-								<p class="fadeInDown-2 medium-color">Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.</p>
+								<h1 class="fadeInDown-1 light-color">Caption top center</h1>
+								<p class="fadeInDown-2 medium-color">This caption is vertically aligned top, horizontally centered and it fades in down.</p>
 								<div class="fadeInDown-3">
-									<a href="#" class="btn btn-large">Get started now</a>
+									<a href="#" class="btn btn-large">Button</a>
+								</div><!-- /.fadeIn -->
+								
+							</div><!-- /.caption -->
+						</div><!-- /.container -->
+					</div><!-- /.item -->
+					
+					<div class="item img-bg img-bg-soft light-bg" style="background-image: url(assets/images/art/slider03.jpg);">
+						<div class="container">
+							<div class="caption vertical-center text-left">
+								
+								<h1 class="fadeInLeft-1 dark-color">Caption <br>left center</h1>
+								<p class="fadeInLeft-2 dark-color">This caption is horizontally aligned left, vertically <br>centered and it fades in left.</p>
+								<div class="fadeInLeft-3">
+									<a href="#" class="btn btn-large">Button</a>
 								</div><!-- /.fadeIn -->
 								
 							</div><!-- /.caption -->
@@ -358,10 +404,10 @@
 						<div class="container">
 							<div class="caption vertical-center text-right">
 								
-								<h1 class="fadeInLeft-1 light-color">Fresh and <br>beautiful design</h1>
-								<p class="fadeInLeft-2 light-color">REEN is designed to showcase your talent and put your work in the forefront. <br>Professionally use of typography and layout that fits your content.</p>
-								<div class="fadeInLeft-3">
-									<a href="#" class="btn btn-large">Get started now</a>
+								<h1 class="fadeInRight-1 light-color">Caption <br>right center</h1>
+								<p class="fadeInRight-2 light-color">This caption is horizontally aligned right, vertically <br>centered and it fades in right.</p>
+								<div class="fadeInRight-3">
+									<a href="#" class="btn btn-large">Button</a>
 								</div><!-- /.fadeIn -->
 								
 							</div><!-- /.caption -->
@@ -370,12 +416,12 @@
 					
 					<div class="item" style="background-image: url(assets/images/art/slider03.jpg);">
 						<div class="container">
-							<div class="caption vertical-center text-left">
+							<div class="caption vertical-top text-left">
 								
-								<h1 class="fadeInRight-1 dark-bg light-color"><span>Clean and <br>reusable code</span></h1>
-								<p class="fadeInRight-2 dark-color">The clean code allows you to easily copy code blocks from content <br>modules and past them in different places or layouts.</p>
-								<div class="fadeInRight-3">
-									<a href="#" class="btn btn-large">Get started now</a>
+								<h1 class="fadeIn-1 dark-bg light-color"><span>Caption block dark background</span></h1>
+								<p class="fadeIn-2 dark-color">This block caption is horizontally aligned left, vertically top and it fades in.</p>
+								<div class="fadeIn-3">
+									<a href="#" class="btn btn-large">Button</a>
 								</div><!-- /.fadeIn -->
 								
 							</div><!-- /.caption -->
@@ -384,26 +430,12 @@
 					
 					<div class="item" style="background-image: url(assets/images/art/slider04.jpg);">
 						<div class="container">
-							<div class="caption vertical-top text-right">
+							<div class="caption vertical-bottom text-right">
 								
-								<h1 class="fadeIn-1 dark-bg light-color"><span>Just focus on <br>your creativity</span></h1>
-								<p class="fadeIn-2 light-color">Take a break from messing around with heavy coding and spend <br>your time brainstorming ideas for your next project.</p>
-								<div class="fadeIn-3">
-									<a href="#" class="btn btn-large">Get started now</a>
-								</div><!-- /.fadeIn -->
-								
-							</div><!-- /.caption -->
-						</div><!-- /.container -->
-					</div><!-- /.item -->
-					
-					<div class="item" style="background-image: url(assets/images/art/slider05.jpg);">
-						<div class="container">
-							<div class="caption vertical-top text-center">
-								
-								<h1 class="fadeInDown-1 light-color">Showcase <br>your content</h1>
-								<p class="fadeInDown-2 medium-color">With REEN you have the possibility to create websites for various <br>contents quickly and easily. Now it's up to you!</p>
-								<div class="fadeInDown-3">
-									<a href="#" class="btn btn-large">Get started now</a>
+								<h1 class="fadeInUp-1 light-bg dark-color"><span>Caption Block Light Background</span></h1>
+								<p class="fadeInUp-2 light-color">This block caption is horizontally aligned right, vertically bottom and it fades in up.</p>
+								<div class="fadeInUp-3">
+									<a href="#" class="btn btn-large">Button</a>
 								</div><!-- /.fadeIn -->
 								
 							</div><!-- /.caption -->
@@ -413,259 +445,633 @@
 				</div><!-- /.owl-carousel -->
 			</section>
 			
-			<!-- ============================================================= SECTION – HERO : END ============================================================= -->
+			<!-- ============================================================= SECTION – MAIN SLIDER HERO : END ============================================================= -->
 			
 			
-			<!-- ============================================================= SECTION – WHO WE ARE ============================================================= -->
+			<!-- ============================================================= SECTION – SLIDERS ============================================================= -->
 			
-			<section id="who-we-are">
-				<div class="container inner-top inner-bottom-sm">
-					
-					<div class="row">
-						<div class="col-md-8 col-sm-9 center-block text-center">
-							<header>
-								<h1>Beautiful. Clean. Responsive.</h1>
-								<p>REEN is a high-quality solution for those who want a beautiful website in no time. It's fully responsive and will adapt itself to any mobile device. iPad, iPhone, Android, it doesn't matter. Your content will always looks its absolute best.</p>
-							</header>
-						</div><!-- /.col -->
-					</div><!-- /.row -->
-				
-					<div class="row inner-top-sm">
-						
-						<div class="col-md-1">
-							<div class="icon pull-right">
-								<i class="icon-heart-empty-1 icn"></i>
-							</div><!-- /.icon -->
-						</div><!-- /.col -->
-						
-						<div class="col-md-3 inner-bottom-xs">
-							<h2>Passion</h2>
-							<p class="text-small">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
-						</div><!-- /.col -->
-						
-						<div class="col-md-1">
-							<div class="icon pull-right">
-								<i class="icon-lamp icn"></i>
-							</div><!-- /.icon -->
-						</div><!-- /.col -->
-					
-						<div class="col-md-3 inner-bottom-xs">
-							<h2>Creativity</h2>
-							<p class="text-small">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
-						</div><!-- /.col -->
-						
-						<div class="col-md-1">
-							<div class="icon pull-right">
-								<i class="icon-star-empty-1 icn"></i>
-							</div><!-- /.icon -->
-						</div><!-- /.col -->
-					
-						<div class="col-md-3 inner-bottom-xs">
-							<h2>Quality</h2>
-							<p class="text-small">Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
-						</div><!-- /.col -->
-						
-					</div><!-- /.row -->
-				
-				</div><!-- /.container -->
-			</section>
-			
-			<!-- ============================================================= SECTION – WHO WE ARE : END ============================================================= -->
-			
-			
-			<!-- ============================================================= SECTION – LATEST WORKS ============================================================= -->
-		
-			<section id="latest-works" class="light-bg">
+			<section id="sliders">
 				<div class="container inner">
 					
 					<div class="row">
 						<div class="col-md-8 col-sm-9 center-block text-center">
 							<header>
-								<h1>Check out our latest works</h1>
-								<p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.</p>
+								<h1>Slider with large UI half inside</h1>
+								<p>Large slider UI elements with outer navigation and inner pagination.</p>
 							</header>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
-				 
+					
+					<div class="row">
+						<div class="col-sm-12 inner-top-md">
+							<div id="owl-featured-works" class="owl-carousel owl-inner-pagination owl-outer-nav owl-ui-lg">
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work01-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work02-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work08-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work15-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work09-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work16-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work06-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+							</div><!-- /.owl-carousel -->
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+					
 					<div class="row">
 						
 						<div class="col-sm-6 inner-top-sm">
-							<figure>
 							
-								<div class="icon-overlay icn-link">
-									<a href="portfolio-post.html"><img src="assets/images/art/work02.jpg" alt=""></a>
-								</div><!-- /.icon-overlay -->
+							<h2>Slider with medium UI half inside</h2>
+							<p class="single-line">Medium slider UI elements with inner navigation and outer pagination.</p>
+							
+							<div id="owl-work" class="owl-carousel owl-inner-nav owl-ui-md">
 								
-								<figcaption class="bordered no-top-border">
-									<div class="info">
-										<h3><a href="portfolio-post.html">Grand Motel gets an identity brushup</a></h3>
-										<p>Identity</p>
-									</div><!-- /.info -->
-								</figcaption>
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work02-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
 								
-							</figure>
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work01-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work15-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work06-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work08-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work09-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work16-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+							</div><!-- /.owl-carousel -->
+							
 						</div><!-- /.col -->
 						
 						<div class="col-sm-6 inner-top-sm">
-							<figure>
 							
-								<div class="icon-overlay icn-link">
-									<a href="portfolio-post.html"><img src="assets/images/art/work08.jpg" alt=""></a>
-								</div><!-- /.icon-overlay -->
+							<h2>Slider with small UI full inside</h2>
+							<p class="single-line">Small slider UI elements with inner navigation and pagination.</p>
+							
+							<div id="owl-office" class="owl-carousel owl-inner-pagination owl-inner-nav">
 								
-								<figcaption class="bordered no-top-border">
-									<div class="info">
-										<h3><a href="portfolio-post.html">Fresh branding for a creative startup</a></h3>
-										<p>Identity</p>
-									</div><!-- /.info -->
-								</figcaption>
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work15-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
 								
-							</figure>
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work08-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work06-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work01-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work16-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work02-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work09-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+							</div><!-- /.owl-carousel -->
+							
 						</div><!-- /.col -->
 						
 					</div><!-- /.row -->
 					
-					<div class="row inner-top-sm">
-						<div id="owl-latest-works" class="owl-carousel owl-item-gap">
-							
-							<div class="item">
-								<a href="portfolio-post.html">
+				</div><!-- /.container -->
+			</section>
+			
+			<!-- ============================================================= SECTION – SLIDERS : END ============================================================= -->
+			
+			
+			<!-- ============================================================= SECTION – CAROUSELS ============================================================= -->
+			
+			<section id="carousels" class="light-bg">
+				<div class="container inner">
+					
+					<div class="row">
+						<div class="col-md-8 col-sm-9 center-block text-center">
+							<header>
+								<h1>Carousel with 5 visible items</h1>
+								<p>Medium carousel UI elements with outer navigation and pagination. <br>All carousels are fully responsive, draggable and touchable!</p>
+							</header>
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+					
+					<div class="row">
+						<div class="col-sm-12 inner-top-md">
+							<div id="owl-videos" class="owl-carousel owl-outer-nav owl-ui-md owl-item-gap">
+								
+								<div class="item">
 									<figure>
-										<figcaption class="text-overlay">
+									
+										<div class="icon-overlay icn-link">
+											<a href="slider-carousel.html"><img src="assets/images/art/work01.jpg" alt=""></a>
+										</div><!-- /.icon-overlay -->
+										
+										<figcaption class="bordered no-top-border">
 											<div class="info">
-												<h4>Vintage Bicycles</h4>
+												<h4><a href="slider-carousel.html">Dashboard</a></h4>
 												<p>Interactive</p>
 											</div><!-- /.info -->
 										</figcaption>
-										<img src="assets/images/art/work03.jpg" alt="">
+										
 									</figure>
-								</a>
-							</div><!-- /.item -->
+								</div><!-- /.item -->
 							
-							<div class="item">
-								<a href="portfolio-post.html">
+								<div class="item">
 									<figure>
-										<figcaption class="text-overlay">
+									
+										<div class="icon-overlay icn-link">
+											<a href="slider-carousel.html"><img src="assets/images/art/work02.jpg" alt=""></a>
+										</div><!-- /.icon-overlay -->
+										
+										<figcaption class="bordered no-top-border">
 											<div class="info">
-												<h4>Simpli Nota</h4>
+												<h4><a href="slider-carousel.html">Grand Motel</a></h4>
 												<p>Identity</p>
 											</div><!-- /.info -->
 										</figcaption>
-										<img src="assets/images/art/work04.jpg" alt="">
+										
 									</figure>
-								</a>
-							</div><!-- /.item -->
+								</div><!-- /.item -->
 							
-							<div class="item">
-								<a href="portfolio-post.html">
+								<div class="item">
 									<figure>
-										<figcaption class="text-overlay">
+									
+										<div class="icon-overlay icn-link">
+											<a href="slider-carousel.html"><img src="assets/images/art/work16.jpg" alt=""></a>
+										</div><!-- /.icon-overlay -->
+										
+										<figcaption class="bordered no-top-border">
 											<div class="info">
-												<h4>Vinyl Records</h4>
+												<h4><a href="slider-carousel.html">Signwall</a></h4>
 												<p>Identity</p>
 											</div><!-- /.info -->
 										</figcaption>
-										<img src="assets/images/art/work07.jpg" alt="">
+										
 									</figure>
-								</a>
-							</div><!-- /.item -->
+								</div><!-- /.item -->
 							
-							<div class="item">
-								<a href="portfolio-post.html">
+								<div class="item">
 									<figure>
-										<figcaption class="text-overlay">
+									
+										<div class="icon-overlay icn-link">
+											<a href="slider-carousel.html"><img src="assets/images/art/work08a.jpg" alt=""></a>
+										</div><!-- /.icon-overlay -->
+										
+										<figcaption class="bordered no-top-border">
 											<div class="info">
-												<h4>Astor & Yancy</h4>
+												<h4><a href="slider-carousel.html">Brand Stationery</a></h4>
 												<p>Identity</p>
 											</div><!-- /.info -->
 										</figcaption>
-										<img src="assets/images/art/work09.jpg" alt="">
+										
 									</figure>
-								</a>
-							</div><!-- /.item -->
+								</div><!-- /.item -->
 							
-							<div class="item">
-								<a href="portfolio-post.html">
+								<div class="item">
 									<figure>
-										<figcaption class="text-overlay">
+									
+										<div class="icon-overlay icn-link">
+											<a href="slider-carousel.html"><img src="assets/images/art/work10.jpg" alt=""></a>
+										</div><!-- /.icon-overlay -->
+										
+										<figcaption class="bordered no-top-border">
 											<div class="info">
-												<h4>Signwall</h4>
-												<p>Identity</p>
-											</div><!-- /.info -->
-										</figcaption>
-										<img src="assets/images/art/work16.jpg" alt="">
-									</figure>
-								</a>
-							</div><!-- /.item -->
-							
-							<div class="item">
-								<a href="portfolio-post.html">
-									<figure>
-										<figcaption class="text-overlay">
-											<div class="info">
-												<h4>Tri Fold Brochure</h4>
+												<h4><a href="slider-carousel.html">Tri Fold Brochure</a></h4>
 												<p>Print</p>
 											</div><!-- /.info -->
 										</figcaption>
-										<img src="assets/images/art/work10.jpg" alt="">
+										
 									</figure>
-								</a>
-							</div><!-- /.item -->
+								</div><!-- /.item -->
 							
-							<div class="item">
-								<a href="portfolio-post.html">
+								<div class="item">
 									<figure>
-										<figcaption class="text-overlay">
+									
+										<div class="icon-overlay icn-link">
+											<a href="slider-carousel.html"><img src="assets/images/art/work03.jpg" alt=""></a>
+										</div><!-- /.icon-overlay -->
+										
+										<figcaption class="bordered no-top-border">
 											<div class="info">
-												<h4>Embroidered</h4>
+												<h4><a href="slider-carousel.html">Vintage Bicycles</a></h4>
+												<p>Interactive</p>
+											</div><!-- /.info -->
+										</figcaption>
+										
+									</figure>
+								</div><!-- /.item -->
+							
+								<div class="item">
+									<figure>
+									
+										<div class="icon-overlay icn-link">
+											<a href="slider-carousel.html"><img src="assets/images/art/work18.jpg" alt=""></a>
+										</div><!-- /.icon-overlay -->
+										
+										<figcaption class="bordered no-top-border">
+											<div class="info">
+												<h4><a href="slider-carousel.html">Modern CD Case</a></h4>
+												<p>Print</p>
+											</div><!-- /.info -->
+										</figcaption>
+										
+									</figure>
+								</div><!-- /.item -->
+							
+								<div class="item">
+									<figure>
+									
+										<div class="icon-overlay icn-link">
+											<a href="slider-carousel.html"><img src="assets/images/art/work09.jpg" alt=""></a>
+										</div><!-- /.icon-overlay -->
+										
+										<figcaption class="bordered no-top-border">
+											<div class="info">
+												<h4><a href="slider-carousel.html">Astor & Yancy</a></h4>
 												<p>Identity</p>
 											</div><!-- /.info -->
 										</figcaption>
-										<img src="assets/images/art/work05a.jpg" alt="">
+										
 									</figure>
-								</a>
-							</div><!-- /.item -->
+								</div><!-- /.item -->
 							
-							<div class="item">
-								<a href="portfolio-post.html">
+								<div class="item">
 									<figure>
-										<figcaption class="text-overlay">
+									
+										<div class="icon-overlay icn-link">
+											<a href="slider-carousel.html"><img src="assets/images/art/photograph02.jpg" alt=""></a>
+										</div><!-- /.icon-overlay -->
+										
+										<figcaption class="bordered no-top-border">
 											<div class="info">
-												<h4>El Corcho</h4>
-												<p>Identity</p>
+												<h4><a href="slider-carousel.html">Daydreaming</a></h4>
+												<p>Photography</p>
 											</div><!-- /.info -->
 										</figcaption>
-										<img src="assets/images/art/work12.jpg" alt="">
+										
 									</figure>
-								</a>
-							</div><!-- /.item -->
+								</div><!-- /.item -->
+								
+							</div><!-- /.owl-carousel -->
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+					
+					<div class="row">
+						
+						<div class="col-sm-6 inner-top-sm">
 							
-						</div><!-- /.owl-carousel -->
+							<h2>2 visible items carousel</h2>
+							<p class="single-line">Small carousel UI elements with outer pagination and bottom navigation.</p>
+							
+							<div id="owl-related-posts" class="owl-carousel owl-item-gap">
+								
+								<div class="item">
+									<a href="slider-carousel.html">
+										<figure>
+											<figcaption class="text-overlay">
+												<div class="info">
+													<h4>Vintage Bicycles</h4>
+													<p>Interactive</p>
+												</div><!-- /.info -->
+											</figcaption>
+											<img src="assets/images/art/work03.jpg" alt="">
+										</figure>
+									</a>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<a href="slider-carousel.html">
+										<figure>
+											<figcaption class="text-overlay">
+												<div class="info">
+													<h4>Simpli Nota</h4>
+													<p>Identity</p>
+												</div><!-- /.info -->
+											</figcaption>
+											<img src="assets/images/art/work04.jpg" alt="">
+										</figure>
+									</a>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<a href="slider-carousel.html">
+										<figure>
+											<figcaption class="text-overlay">
+												<div class="info">
+													<h4>Vinyl Records</h4>
+													<p>Identity</p>
+												</div><!-- /.info -->
+											</figcaption>
+											<img src="assets/images/art/work07.jpg" alt="">
+										</figure>
+									</a>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<a href="slider-carousel.html">
+										<figure>
+											<figcaption class="text-overlay">
+												<div class="info">
+													<h4>Astor & Yancy</h4>
+													<p>Identity</p>
+												</div><!-- /.info -->
+											</figcaption>
+											<img src="assets/images/art/work09.jpg" alt="">
+										</figure>
+									</a>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<a href="slider-carousel.html">
+										<figure>
+											<figcaption class="text-overlay">
+												<div class="info">
+													<h4>Signwall</h4>
+													<p>Identity</p>
+												</div><!-- /.info -->
+											</figcaption>
+											<img src="assets/images/art/work16.jpg" alt="">
+										</figure>
+									</a>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<a href="slider-carousel.html">
+										<figure>
+											<figcaption class="text-overlay">
+												<div class="info">
+													<h4>Tri Fold Brochure</h4>
+													<p>Print</p>
+												</div><!-- /.info -->
+											</figcaption>
+											<img src="assets/images/art/work10.jpg" alt="">
+										</figure>
+									</a>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<a href="slider-carousel.html">
+										<figure>
+											<figcaption class="text-overlay">
+												<div class="info">
+													<h4>Embroidered</h4>
+													<p>Identity</p>
+												</div><!-- /.info -->
+											</figcaption>
+											<img src="assets/images/art/work05a.jpg" alt="">
+										</figure>
+									</a>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<a href="slider-carousel.html">
+										<figure>
+											<figcaption class="text-overlay">
+												<div class="info">
+													<h4>El Corcho</h4>
+													<p>Identity</p>
+												</div><!-- /.info -->
+											</figcaption>
+											<img src="assets/images/art/work12.jpg" alt="">
+										</figure>
+									</a>
+								</div><!-- /.item -->
+								
+							</div><!-- /.owl-carousel -->
+							
+						</div><!-- /.col -->
+						
+						<div class="col-sm-6 inner-top-sm">
+							
+							<h2>3 visible items carousel without gap</h2>
+							<p class="single-line">Small carousel UI elements with outer pagination and bottom navigation.</p>
+							
+							<div id="owl-work-samples" class="owl-carousel">
+								
+								<div class="item">
+									<a href="slider-carousel.html">
+										<figure>
+											<figcaption class="text-overlay">
+												<div class="info">
+													<h4>Astor & Yancy</h4>
+													<p>Identity</p>
+												</div><!-- /.info -->
+											</figcaption>
+											<img src="assets/images/art/work09.jpg" alt="">
+										</figure>
+									</a>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<a href="slider-carousel.html">
+										<figure>
+											<figcaption class="text-overlay">
+												<div class="info">
+													<h4>Signwall</h4>
+													<p>Identity</p>
+												</div><!-- /.info -->
+											</figcaption>
+											<img src="assets/images/art/work16.jpg" alt="">
+										</figure>
+									</a>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<a href="slider-carousel.html">
+										<figure>
+											<figcaption class="text-overlay">
+												<div class="info">
+													<h4>Tri Fold Brochure</h4>
+													<p>Print</p>
+												</div><!-- /.info -->
+											</figcaption>
+											<img src="assets/images/art/work10.jpg" alt="">
+										</figure>
+									</a>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<a href="slider-carousel.html">
+										<figure>
+											<figcaption class="text-overlay">
+												<div class="info">
+													<h4>Vintage Bicycles</h4>
+													<p>Interactive</p>
+												</div><!-- /.info -->
+											</figcaption>
+											<img src="assets/images/art/work03.jpg" alt="">
+										</figure>
+									</a>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<a href="slider-carousel.html">
+										<figure>
+											<figcaption class="text-overlay">
+												<div class="info">
+													<h4>Simpli Nota</h4>
+													<p>Identity</p>
+												</div><!-- /.info -->
+											</figcaption>
+											<img src="assets/images/art/work04.jpg" alt="">
+										</figure>
+									</a>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<a href="slider-carousel.html">
+										<figure>
+											<figcaption class="text-overlay">
+												<div class="info">
+													<h4>Vinyl Records</h4>
+													<p>Identity</p>
+												</div><!-- /.info -->
+											</figcaption>
+											<img src="assets/images/art/work07.jpg" alt="">
+										</figure>
+									</a>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<a href="slider-carousel.html">
+										<figure>
+											<figcaption class="text-overlay">
+												<div class="info">
+													<h4>Embroidered</h4>
+													<p>Identity</p>
+												</div><!-- /.info -->
+											</figcaption>
+											<img src="assets/images/art/work05a.jpg" alt="">
+										</figure>
+									</a>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<a href="slider-carousel.html">
+										<figure>
+											<figcaption class="text-overlay">
+												<div class="info">
+													<h4>El Corcho</h4>
+													<p>Identity</p>
+												</div><!-- /.info -->
+											</figcaption>
+											<img src="assets/images/art/work12.jpg" alt="">
+										</figure>
+									</a>
+								</div><!-- /.item -->
+								
+							</div><!-- /.owl-carousel -->
+							
+						</div><!-- /.col -->
+						
 					</div><!-- /.row -->
 					
 				</div><!-- /.container -->
 			</section>
 			
-			<!-- ============================================================= SECTION – LATEST WORKS : END ============================================================= -->
+			<!-- ============================================================= SECTION – CAROUSELS : END ============================================================= -->
 			
 			
-			<!-- ============================================================= SECTION – GET IN TOUCH ============================================================= -->
+			<!-- ============================================================= SECTION – BUY TEMPLATE ============================================================= -->
 			
-			<section id="get-in-touch">
-				<div class="container inner">
+			<section id="buy-template" class="tint-bg">
+				<div class="container inner-sm">
 					<div class="row">
-						<div class="col-md-8 col-sm-9 center-block text-center">
-							<header>
-								<h1>Want to work with us?</h1>
-								<p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
-							</header>
-							<a href="#" class="btn btn-large">Get in touch</a>
+						<div class="col-sm-10 center-block text-center">
+							<h1 class="single-block">Think you can use this? <a href="https://wrapbootstrap.com/theme/reen-made-for-designers-portfolio-WB00PN23G" target="_blank" class="btn btn-large">Buy Template</a></h1>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
 				</div><!-- /.container -->
 			</section>
 			
-			<!-- ============================================================= SECTION – GET IN TOUCH : END ============================================================= -->
+			<!-- ============================================================= SECTION – BUY TEMPLATE : END ============================================================= -->
 			
 		</main>
 		

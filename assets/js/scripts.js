@@ -10,7 +10,11 @@ $(document).ready(function() {
 	var sActive = false;
 	
 	if ($(window).width() > 1024) {
-		s.init();
+		s.init({
+			mobileCheck: function() {
+				return false;
+			}
+		});
 		sActive = true;
 	}
 	
@@ -20,7 +24,11 @@ $(document).ready(function() {
 			sActive = false;
 		}
 		else if ($(window).width() > 1024) {
-			s.init();
+			s.init({
+				mobileCheck: function() {
+					return false;
+				}
+			});
 			sActive = true;
 		}
 	});
@@ -370,49 +378,6 @@ $(document).ready(function () {
 
 
 /*===================================================================================*/
-/*	ANIMATIONS ON SCROLL
-/*===================================================================================*/
-
-$(document).ready(function() {
-	/*var waypointClass = '[class*="animate"]';
-	$(waypointClass).css({opacity: '0'});
-	
-	$(waypointClass).waypoint(function() {
-		var animationClass = $(this).attr('class').split('animate-')[1];
-		var delayTime = $(this).data('delay');
-		$(this).delay(delayTime).queue(function(next){
-			$(this).toggleClass('animated');
-			$(this).toggleClass(animationClass);
-			next();
-		});
-	},
-	{
-		offset: '90%',
-		triggerOnce: true
-	});*/
-	
-	var waypointClass = 'main [class*="col-"]';
-	var animationClass = 'fadeInUp';
-	var delayTime;
-	$(waypointClass).css({opacity: '0'});
-	
-	$(waypointClass).waypoint(function() {
-		delayTime += 100;
-		$(this).delay(delayTime).queue(function(next){
-			$(this).toggleClass('animated');
-			$(this).toggleClass(animationClass);
-			delayTime = 0;
-			next();
-		});
-	},
-	{
-		offset: '90%',
-		triggerOnce: true
-	});
-});
-
-
-/*===================================================================================*/
 /*	ISOTOPE PORTFOLIO
 /*===================================================================================*/
 
@@ -741,7 +706,8 @@ $(document).ready(function () {
 		var mapOptions = {
 			zoom: 13,
 			center: new google.maps.LatLng(40.7902778, -73.9597222),
-			disableDefaultUI: true
+			disableDefaultUI: true,
+			scrollwheel: false
 		}
 		var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 	}
@@ -756,7 +722,7 @@ $(document).ready(function () {
 /*===================================================================================*/
 
 $(document).ready(function () {
-	window.viewportUnitsBuggyfill.init(true);
+	window.viewportUnitsBuggyfill.init();
 });
 
 
